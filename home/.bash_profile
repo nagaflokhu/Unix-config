@@ -4,6 +4,7 @@ export PATH=$PATH:$PLAN9/bin
 export PATH="~/anaconda/bin:~/anaconda3/bin:$PATH"
 
 alias ll='ls -lh'
+alias ls='ls -G'
 
 # FSL Setup
 FSLDIR=/usr/local/fsl
