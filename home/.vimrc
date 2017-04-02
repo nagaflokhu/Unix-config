@@ -1,5 +1,5 @@
 set nu
-set autoindent
+set smartindent
 
 " Makes tabs be spaces.
 " set expandtab
@@ -32,3 +32,13 @@ filetype plugin indent on
 " Don't clear screen when exiting vim. Figure out how
 " this works.
 set t_ti= t_te=
+
+" Set color scheme and syntax highlighting
+syntax on
+colorscheme github
+
+" Enhanced tab completion
+set wildmenu
+
+" Make backspace work while in insert mode
+set backspace=2
